@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme{
+  --color-primary:oklch(72.3% 0.219 149.579);
+}
+
+body {
+  @apply bg-white text-black;
+}
+
+body.dark {
+  @apply bg-black text-white;
+}
+
+
+a.active{
+  color: oklch(72.3% 0.219 149.579);
+}
+
+
+@utility hover-color{
+  @apply transition-colors duration-300 hover:text-green-500;
+}
+
+@utility link{
+  @apply font-semibold text-lg cursor-pointer hover-color;
+}
+
+/*Join Bg*/
+
+#join{
+  background-image: url("../src/assets/img/join-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
