@@ -7,9 +7,9 @@ import { revealLeft, revealRight } from '../Components/ScrollReveal'
 
 // images
 import mainHomeImg from '../assets/Images/home-fruits.png'
-import enjoyImg1 from '../assets/img/enjoy-1.png'
-import enjoyImg2 from '../assets/img/enjoy-2.png'
-import enjoyImg3 from '../assets/img/enjoy-3.png'
+import enjoyImg1 from '../assets/Images/enjoy-1.png'
+import enjoyImg2 from '../assets/Images/enjoy-2.png'
+import enjoyImg3 from '../assets/Images/enjoy-3.png'
 
 const Home = () => {
 
