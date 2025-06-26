@@ -6,7 +6,7 @@ import ScrollReveal from 'scrollreveal'
 import { revealLeft, revealRight } from '../Components/ScrollReveal'
 
 // images
-import mainHomeImg from '../assets/img/home-fruits.png'
+import mainHomeImg from '../assets/Images/home-fruits.png'
 
 const Home = () => {
 
