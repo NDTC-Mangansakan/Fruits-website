@@ -7,6 +7,9 @@ import { revealLeft, revealRight } from '../Components/ScrollReveal'
 
 // images
 import mainHomeImg from '../assets/Images/home-fruits.png'
+import enjoyImg1 from '../assets/img/enjoy-1.png'
+import enjoyImg2 from '../assets/img/enjoy-2.png'
+import enjoyImg3 from '../assets/img/enjoy-3.png'
 
 const Home = () => {
 
@@ -40,9 +43,9 @@ const Home = () => {
         <div className="py-15 flex-col justify-center items-center">
           <SectionTitle title="Eat and Enjoy" position="text-center"/>
           <div className=" mt-15 flex flex-col gap-10 mx-auto max-w-[768px] lg:flex-row">
-            <FruitCard img="../src/assets/img/enjoy-1.png" title="Healthy" subTitle="Tropical Fruit"/>
-            <FruitCard img="../src/assets/img/enjoy-2.png" title="Delicious" subTitle="Field Fruit" />
-            <FruitCard img="../src/assets/img/enjoy-3.png" title="Organic" subTitle="Tropical Fruit" />
+            <FruitCard img={enjoyImg1} title="Healthy" subTitle="Tropical Fruit"/>
+            <FruitCard img={enjoyImg2} title="Delicious" subTitle="Field Fruit" />
+            <FruitCard img={enjoyImg3} title="Organic" subTitle="Tropical Fruit" />
           </div>
         </div>
       </div>
