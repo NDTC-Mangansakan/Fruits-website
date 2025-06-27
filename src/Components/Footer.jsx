@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/Images/logo.png'
 
 const Footer = () => {
     return (
@@ -9,7 +10,7 @@ const Footer = () => {
                         href="#"
                         className="font-bold text-2xl italic flex justify-center gap-x-1 lg:justify-start"
                     >
-                        <img src="./src/assets/img/logo.png" alt="" className="w-8" />
+                        <img src={logo} alt="" className="w-8" />
                         Fruit
                     </a>
                     <p className="text-gray-400 font-semibold mt-3 lg:text-start">Eat healthy and <br />choose the best Fruits</p>
