@@ -5,6 +5,9 @@ import FruitCard from '../Components/FruitCard'
 import ScrollReveal from 'scrollreveal'
 import { revealLeft, revealRight } from '../Components/ScrollReveal'
 
+//Image
+import aboutImg from '../assets/Images/about-fruits.png'
+
 const About = () => {
 
   useEffect(() => {
@@ -29,7 +32,7 @@ const About = () => {
 
           <div className=" mt-10 flex justify-center items-center lg:w-1/2 lg:mt-0 right">
             <div className="home-img-container justify-center items-center">
-              <img src="../src/assets/img/about-fruits.png" alt="" className='w-80 xl:w-auto' />
+              <img src={aboutImg} alt="" className='w-80 xl:w-auto' />
             </div>
           </div>
         </div>
